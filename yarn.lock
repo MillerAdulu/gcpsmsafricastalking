@@ -49,7 +49,7 @@
   dependencies:
     arrify "^1.0.1"
 
-"@google-cloud/common@^0.16.0", "@google-cloud/common@^0.16.1":
+"@google-cloud/common@^0.16.1":
   version "0.16.2"
   resolved "https://registry.yarnpkg.com/@google-cloud/common/-/common-0.16.2.tgz#029b3c7c4a425f1374045ba8f6a878bd50e4761c"
   integrity sha512-GrkaFoj0/oO36pNs4yLmaYhTujuA3i21FdQik99Fd/APix1uhf01VlpJY4lAteTDFLRNkRx6ydEh7OVvmeUHng==
@@ -97,12 +97,12 @@
     string-format-obj "^1.1.0"
     through2 "^2.0.3"
 
-"@google-cloud/debug-agent@2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@google-cloud/debug-agent/-/debug-agent-2.4.0.tgz#14d03015576415ef49b03abaee4f7b567b0acfe2"
-  integrity sha512-7g1xhEw1m+SxCS3EIxoU+Ct789sA/zAI0IvQP+vpgy9pWzMuRHkK+kIqzwd6l1GonV32ucIbgBwg9vJxvn5rag==
+"@google-cloud/debug-agent@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@google-cloud/debug-agent/-/debug-agent-2.6.0.tgz#130e84226bc9538acd097adb5590da2ff4f2da66"
+  integrity sha512-JwnuHNOqpLgtirMUSp+vOJxIjQfQ8DRfkGbEjUg5/Nhg8zDEz8H8Oo3s2Tuknkk1XkmPHpoKfz+6raD5NgEzZw==
   dependencies:
-    "@google-cloud/common" "^0.16.0"
+    "@google-cloud/common" "^0.17.0"
     acorn "^5.0.3"
     async "^2.1.2"
     coffee-script "^1.9.3"
@@ -110,7 +110,7 @@
     findit2 "^2.2.3"
     gcp-metadata "^0.6.3"
     lodash "^4.12.0"
-    semver "^5.1.0"
+    semver "^5.5.0"
     source-map "^0.6.1"
     split "^1.0.0"
     util.promisify "^1.0.0"
